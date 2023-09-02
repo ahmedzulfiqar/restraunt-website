@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+/* root css */
+
+* {
+  font-family: "Pirata One";
+  text-decoration: none;
+  list-style: none;
+}
+*:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+p {
+  font-family: "Acme", sans-serif !important;
+}
+:root {
+  --white: #ffffff;
+  --red: #991b1f;
+  --dark: #101010;
+}
+button:focus {
+  outline: initial !important;
+  border: initial !important;
+  box-shadow: initial !important;
+}
+body {
+  background-color: var(--dark) !important;
+  overflow-x: hidden;
+}
+.bg-dangera {
+  background-color: var(--red) !important;
+}
+.bg-darka {
+  background-color: var(--dark) !important;
+}
+.bg-darkaa {
+  background-color: #181818;
+}
+.text-dangera {
+  color: var(--red) !important;
+}
+.text-darka {
+  color: var(--black) !important;
+}
+.absolute {
+  position: absolute;
+  top: 300%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* root css */
+/* navbar css */
+.mynavbar li {
+  transition: 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar {
+  transition: 0.5s ease;
+}
+.active {
+  background: var(--red) !important ;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.opacity-0sa {
+  transform: translateY(-240px) !important;
+}
+.mynavbar li {
+  color: var(--white);
+}
+.mynavbar li:hover {
+  color: var(--red);
+}
+.active {
+  background: var(--red) !important ;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.active:hover li {
+  background: var(--red) !important ;
+  text-decoration: none;
+  border-radius: 10px;
+  color: var(--white) !important;
+}
+/* navbar css */
+/*section 1*/
+.sec1 {
+  height: min-content !important;
+}
+.mycarousel {
+  width: 100%;
+  height: 100vh !important;
+}
+.mycarousel img {
+  height: 100vh !important;
+  width: 100% !important;
+}
+.legend {
+  position: absolute;
+  bottom: unset !important;
+  top: 35vh;
+  left: 0% !important;
+  margin-left: 0% !important;
+  background: transparent !important;
+  color: var(--white) !important;
+  width: 100% !important;
+  text-align: start !important;
+  opacity: 100% !important;
+}
+.mask {
+  width: 100% !important;
+  height: 100vh !important;
+  background-color: rgba(0, 0, 0, 0.677);
+  position: absolute;
+  top: 0;
+}
+.legend .display-11 {
+  font-size: 110px !important;
+}
+.legend .display-5 {
+  transform: translateY(10px);
+}
+.btn-danger {
+  background-color: var(--red) !important;
+}
+@media screen and (max-width: 800px) {
+  .mycarousel {
+    width: 100%;
+    height: 80vh !important;
+  }
+  .mycarousel img {
+    height: 80vh !important;
+    width: auto !important;
+  }
+  .mask {
+    width: 100% !important;
+    height: 80vh !important;
+    background-color: rgba(0, 0, 0, 0.697);
+    position: absolute;
+    top: 0;
+  }
+  .legend .display-11 {
+    font-size: 13vw !important;
+  }
+  .legend {
+    top: 34%;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*section 1*/
+/*section2*/ /*section2*/
+/*section3*/
+.active2 {
+  background-color: var(--red) !important;
+  border: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: #101010 !important;
 }
-
-.App-link {
-  color: #61dafb;
+.menue * {
+  font-family: "Acme";
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*section3*/
+/*section4*/
+.sec3card {
+  overflow: hidden;
 }
+.sec3card img {
+  transition: 0.5s ease;
+}
+.sec3card .card-img-overlay {
+  opacity: 30%;
+}
+.sec3card:hover .card-img-overlay {
+  opacity: 15%;
+}
+.sec3card:hover .card-img {
+  transform: scale(1.1);
+}
+.text-warninga {
+  color: #f28500;
+}
+/*section4*/
