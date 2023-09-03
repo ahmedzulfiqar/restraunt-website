@@ -74,7 +74,7 @@ function Sections7() {
                           </div>
                         </div>
                         <div className="btn bg-dangera -0 mt-md-5  text-light px-4 mt-4 ">
-                          <div className="h3 p-0 m-0">Call Now</div>
+                          <div className="h3 p-0 m-0">+ 1243-566-2346</div>
                         </div>
                       </div>
                     </div>

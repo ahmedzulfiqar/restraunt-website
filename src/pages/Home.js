@@ -19,6 +19,40 @@ function Home() {
       <Section5 />
       <Section6 />
       <Sections7 />
+      <footer class="bg-darka text-center text-white px-3">
+        <div class="container py-3 ">
+          <div className="row  ms-md-3">
+            <div className="display-5 p-0 m-0 text-dangera col-md-6 col-12 text-md-start text-center">
+              TOASTERS
+            </div>
+            <section class="col-md-6 col-12 mt-md-0 mt-2 text-center">
+              <a
+                class="btn btn-outline-light btn-floating m-1 border-danger rounded-circle"
+                href="#!"
+                role="button"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a
+                class="btn btn-outline-light btn-floating m-1 border-danger rounded-circle"
+                href="#!"
+                role="button"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+
+              <a
+                class="btn btn-outline-light btn-floating m-1 border-danger rounded-circle"
+                href="#!"
+                role="button"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </section>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

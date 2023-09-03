@@ -104,6 +104,7 @@ function Navbar() {
                     isDynamic={true}
                     ignoreCancelEvents={false}
                     defaultValue={"About Me"}
+                    offset={-100}
                     delay={0}
                     onSetActive={(i) => console.log(i)}
                   >

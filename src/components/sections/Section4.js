@@ -25,7 +25,7 @@ function Section4() {
                     </span>
                   </span>
                   <h2 class="display-1 text-dangera mb-3">
-                    Winta <span className="text-light"> Gallery</span>
+                    Toasters <span className="text-light"> Gallery</span>
                   </h2>
                   <hr className="border border-danger" />
 
