@@ -10,7 +10,7 @@ function Navbar() {
     "Menu",
     "Gallery",
     "Chef",
-    "News",
+    "Reviews",
     "Contact",
   ]);
 
@@ -146,7 +146,7 @@ function Navbar() {
           ></i>
         </div>
         <div class="offcanvas-body px-0  mt-0">
-          <ul class="navbar-nav justify-content-end flex-grow-1 sa">
+          <ul class="navbar-nav justify-content-end flex-grow-1 sa mynavbar">
             {list.map((item) => {
               return (
                 <Link
@@ -167,7 +167,7 @@ function Navbar() {
                   onSetActive={(i) => console.log(i)}
                 >
                   <li
-                    class={` fw-bolder px-3  h5 py-3  m-0`}
+                    class={`nav-item  rounded-circle fw-bolder px-3  h5 py-3  m-0`}
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}

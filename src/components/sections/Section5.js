@@ -9,7 +9,7 @@ function Section5() {
     "https://duruthemes.com/demo/html/winta/onepage-dark/img/team/3.jpg",
   ];
   return (
-    <Element name="Gallery">
+    <Element name="Chef">
       <Secover1>
         <div className="col-12  px-0 mx-0 py-md-1 bg-darka">
           <div className="container py-md-5 py-3">

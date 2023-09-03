@@ -18,7 +18,7 @@ function Section6() {
     },
   };
   return (
-    <Element name="Gallery">
+    <Element name="Reviews">
       <Secover1>
         <div className="col-12 section6 py-md-5 py-4">
           <div className="row m-0 py-5">
@@ -37,15 +37,15 @@ function Section6() {
                 removeArrowOnDeviceType={["tablet", "mobile"]}
               >
                 <div class=" mb-4 mb-md-0 text-center px-md-5 mx-md-5">
-                  <p class="mb-0 display-2 text-dangera">Ahmed Zulfiqar</p>
-                  <p class="lead my-md-3 my-1 text-light px-md-5 mx-md-5">
+                  <h1 class="mb-0 display-2 text-dangera">Ahmed Zulfiqar</h1>
+                  <p class=" mt-md-3 mt-1 text-light px-md-5 mx-md-5">
                     <div className="px-md-5 mx-md-5">
                       The name Toasters, in principle, quite fully describes the
                       restaurant's concept: red meat - what else is needed for a
-                      Restraunt! The name Toasters, in principle, quite fully
-                      describes the restaurant's concept: red meat - what else
-                      is needed for a Restraunt!
-                    </div>
+                      Restraunt!
+                    </div>   The name Toasters, in principle, quite fully describes the
+                      restaurant's concept: red meat - what else is needed for a
+                      Restraunt!
                   </p>{" "}
                   <ul class="list-unstyled d-flex justify-content-center">
                     <li>

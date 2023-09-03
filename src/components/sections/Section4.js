@@ -16,7 +16,7 @@ function Section4() {
       <Secover1>
         <div className="col-12  px-0 mx-0 py-md-1 bg-darkaa">
           <div className="container py-md-5 py-3">
-            <div className="row justify-content-between ms-md-5">
+            <div className="row justify-content-between ms-md-5 m-0">
               <div className="col-12   mt-md-3 mx-md-0 mx-1">
                 <div class=" align-self-center text-light pt-md-5 mt-md-1">
                   <span class="h3  text-monospace">
@@ -32,7 +32,7 @@ function Section4() {
                 </div>
               </div>
               <div className="col-12 mt-md-3 mt-2">
-                <div className="row">
+                <div className="row m-0">
                   {images.map((img) => {
                     return (
                       <div className="col-lg-4 col-md-6 col-12 py-md-3 py-1">
