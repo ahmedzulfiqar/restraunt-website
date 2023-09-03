@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/restraunt-website/static/css/main.15feb50f.css",
-    "main.js": "/restraunt-website/static/js/main.70dc4d4d.js",
+    "main.js": "/restraunt-website/static/js/main.ea76bfc4.js",
     "static/js/787.cda612ba.chunk.js": "/restraunt-website/static/js/787.cda612ba.chunk.js",
     "static/media/revicons.eot": "/restraunt-website/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/restraunt-website/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/restraunt-website/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/restraunt-website/index.html",
     "main.15feb50f.css.map": "/restraunt-website/static/css/main.15feb50f.css.map",
-    "main.70dc4d4d.js.map": "/restraunt-website/static/js/main.70dc4d4d.js.map",
+    "main.ea76bfc4.js.map": "/restraunt-website/static/js/main.ea76bfc4.js.map",
     "787.cda612ba.chunk.js.map": "/restraunt-website/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15feb50f.css",
-    "static/js/main.70dc4d4d.js"
+    "static/js/main.ea76bfc4.js"
   ]
 }
