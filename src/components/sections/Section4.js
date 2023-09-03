@@ -27,6 +27,8 @@ function Section4() {
                   <h2 class="display-1 text-dangera mb-3">
                     Winta <span className="text-light"> Gallery</span>
                   </h2>
+                  <hr className="border border-danger" />
+
                 </div>
               </div>
               <div className="col-12 mt-md-3 mt-2">
@@ -34,7 +36,7 @@ function Section4() {
                   {images.map((img) => {
                     return (
                       <div className="col-lg-4 col-md-6 col-12 py-md-3 py-1">
-                        <div class="card sec3card text-bg-dark">
+                        <div class="card sec4card text-bg-dark">
                           <img src={img} class="card-img" alt="..." />
                           <div class="card-img-overlay bg-darka "></div>
                         </div>

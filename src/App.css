@@ -17,6 +17,7 @@ p {
   --white: #ffffff;
   --red: #991b1f;
   --dark: #101010;
+  --warning: #f28500;
 }
 button:focus {
   outline: initial !important;
@@ -26,6 +27,9 @@ button:focus {
 body {
   background-color: var(--dark) !important;
   overflow-x: hidden;
+  background-image: url(https://duruthemes.com/demo/html/winta/onepage-dark/img/slider/1.jpg);
+  background-attachment: fixed;
+  background-size:cover;
 }
 .bg-dangera {
   background-color: var(--red) !important;
@@ -42,9 +46,12 @@ body {
 .text-darka {
   color: var(--black) !important;
 }
+.text-warninga {
+  color: var(--warning);
+}
 .absolute {
   position: absolute;
-  top: 300%;
+  top: 500%;
 }
 
 /* root css */
@@ -153,29 +160,37 @@ body {
   border: transparent !important;
   outline: none !important;
   box-shadow: none !important;
-  color: #101010 !important;
+  color: var(--dark) !important;
 }
-.menue * {
-  font-family: "Acme";
+.menue *,
+p {
+  font-family: "Acme" !important;
 }
 /*section3*/
 /*section4*/
-.sec3card {
+.sec4card {
   overflow: hidden;
 }
-.sec3card img {
+.sec4card img {
   transition: 0.5s ease;
 }
-.sec3card .card-img-overlay {
+.sec4card .card-img-overlay {
   opacity: 30%;
+  transition: 0.5s ease;
 }
-.sec3card:hover .card-img-overlay {
-  opacity: 15%;
+.sec4card:hover .card-img-overlay {
+  transition: 0.5s ease;
+  opacity: 0%;
 }
-.sec3card:hover .card-img {
-  transform: scale(1.1);
+.sec4card:hover .card-img {
+  transform: scaleX(1.05);
 }
-.text-warninga {
-  color: #f28500;
-}
+
 /*section4*/
+/*section5*/
+/*section5*/
+/*section6*/
+.section6 {
+  background-color: rgba(0, 0, 0, 0.641);
+}
+/*section6*/
